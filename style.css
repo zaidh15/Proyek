@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/img/bg.jpg);
+    background-size: cover;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+}
+
+
+h2, h3 {
+    color: #00a2c6;
+}
+
+.content {
+    float: left;
+    width: 75%;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+table {
+    text-align: justify;
+}
+
+td {
+    text-indent: 3em;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px rgb(231, 87, 87);
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 15px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.644);
+    margin-top: 10px;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #06be4d;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        width: 100%;
+        padding: 0px;
+    }
+    aside {
+        float: left;
+        width: 50%;
+        margin-left: 15px;
+        padding: 10px;
+    }
+}
